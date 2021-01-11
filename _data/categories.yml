@@ -1,4 +1,10 @@
-- slug: notetheme
-  name: NoteTheme
-- slug: it
-  name: Information Technology
+- slug: economics
+  name: Economics
+- slug: finance
+  name: Finance
+- slug: management
+  name: Management
+- slug: rbi
+  name: RBI
+- slug: sebi
+  name: SEBI
