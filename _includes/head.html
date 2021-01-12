@@ -43,6 +43,20 @@
     </script>
   {% endif %}
 
+  {% if page.chem %}
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        packages: {'[+]': ['mhchem']}
+      },
+      loader: {load: ['[tex]/mhchem']},
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  {% endif %}
+
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.favicon }}">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
