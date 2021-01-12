@@ -7,6 +7,7 @@ datacomp: 1
 categories: [economics]
 tags: [economics, rbi, ncert]
 date: 2021-01-12
+css: ["tree.css"]
 ---
 <div class="thi-box" markdown="1">
 <div class="box-title" markdown="1">
@@ -31,6 +32,9 @@ Like Water, Land, Electricity etc.
 it a value. All resources have some value.”
 </div>
 </div>
+<p class="post-more-info" markdown="1">
+Utility = quality of being useful
+</p>
 
 Value means worth. Some resources have economic
 value, some do not.
@@ -50,10 +54,36 @@ can change substances into resources
 
 
 
+<fieldset class="field-set" markdown="1">
+<legend class="leg-title">
+	Classification of resources
+</legend>
+
+<ul class="tree">
+  <li> <span><a href="#resources">Resources</a></span>
+
+   <ul>
+      <li> <span><a href="economics-basics-natural-resources.html">Natural Resources</a></span>
+        <ul>
+          <li> <span><a href="economics-basics-renewable-resources.html">Renewable Resources</a></span>
+          </li>
+          <li> <span>Non-Renewable Resources</span>
+          </li>
+        </ul>
+      </li>
+      <li> <span>Human-made Resources</span>
+      </li>
+      <li> <span>Human Resources</span>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+</fieldset>
 
 
-<p class="post-more-info" markdown="1">
-Utility = quality of being useful
-</p>
+
+
+
 
 
