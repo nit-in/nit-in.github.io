@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Humand Resources
+title: Human Resources
 toc: 1
 datacomp: 1
 categories: [economics]
